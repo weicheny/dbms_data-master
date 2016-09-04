@@ -84,8 +84,8 @@ create table flights(
 	origin varchar(20),
 	destination varchar(20),
 	distance numeric(6,0),
-	departs timestamp,
-	arrives timestamp,
+	departs timestamp default current_timestamp,
+	arrives timestamp default current_timestamp,
 	price numeric(7,2)
 	);
 create table aircraft(
