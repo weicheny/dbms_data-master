@@ -133,6 +133,7 @@ create table sailors(
 --
 -- Populate tables.
 --
+/*
 LOAD DATA LOCAL INFILE 'student.txt' INTO TABLE student
     FIELDS TERMINATED BY ',' ENCLOSED BY '"';
 LOAD DATA LOCAL INFILE 'faculty.txt' INTO TABLE faculty
@@ -163,3 +164,4 @@ LOAD DATA LOCAL INFILE 'catalog.txt' INTO TABLE catalog
     FIELDS TERMINATED BY ',' ENCLOSED BY '"';
 LOAD DATA LOCAL INFILE 'sailors.txt' INTO TABLE sailors
     FIELDS TERMINATED BY ',' ENCLOSED BY '"';
+*/
